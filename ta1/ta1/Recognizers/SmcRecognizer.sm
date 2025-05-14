@@ -1,0 +1,56 @@
+%class SmcRecognizer
+%header SmcRecognizer.h
+%start map1::Start
+%map map1
+%%
+
+Start
+{
+    CommandChar(c: char)   CommandName    { add_to_command_name(c); }
+    EOS                 Error          { process_command(); }
+    Default            Error           { }
+}
+
+
+CommandName
+{
+    CommandChar(c: char)   CommandName    { add_to_command_name(c); }
+    Space               ModifierList    { }
+    EOS                 OK          { process_command(); }
+}
+
+ModifierList
+{
+    Space              ModifierList    {  }
+    Dash               SingleDash      {  }
+    EOS                OK          { process_command(); }
+}
+
+SingleDash
+{
+    Dash               DoubleDash      {  }
+    Key(c: char)          ModifierList    { add_single_modifier(c); }
+    Space              ModifierList    {  }
+    EOS                OK          { process_command(); }
+    Default            Error           { }
+}
+
+DoubleDash
+{
+    Key(c: char)           DoubleDash      { add_multi_modifier(c); }
+    Space               ModifierList    { }
+    EOS                 OK          { process_command(); }
+    Default             Error           { }
+}
+
+Error
+{
+    Default             Start           { reset(); }
+}
+
+
+OK
+{
+    Default             OK             {  }
+}
+%%

@@ -1,0 +1,33 @@
+CM: 
+CM: HDL Description: C:\XILINX\ACTIVE\PROJECTS\TISHIN4\var7129.asf
+CM: 0 errors
+CM: Synthesizing...
+CM: W:#0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'VAR7129' successfully created
+CM:  Warning   L46/C0 : #0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: HDL Description: C:\XILINX\ACTIVE\PROJECTS\TISHIN4\var7129.asf
+CM: 0 errors
+CM: Synthesizing...
+CM: W:#0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: HDL Description: C:\XILINX\ACTIVE\PROJECTS\TISHIN4\var7129.asf
+CM: 0 errors
+CM: Synthesizing...
+CM: W:#0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: HDL Description: C:\XILINX\ACTIVE\PROJECTS\TISHIN4\var7129.asf
+CM: 0 errors
+CM: Synthesizing...
+CM: W:#0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report

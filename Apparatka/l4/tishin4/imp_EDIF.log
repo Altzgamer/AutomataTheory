@@ -1,0 +1,8 @@
+CONV_ACS, 2.5.5.78, Sat Mar 22 01:47:09 2025
+
+Import EDIF netlist 'C:\XILINX\ACTIVE\PROJECTS\TISHIN4\var7129.edf'
+Symbol 'var7129', port 'Sreg0<2>' has been renamed to 'Sreg02'
+Symbol 'var7129', port 'Sreg0<3>' has been renamed to 'Sreg03'
+Symbol 'var7129', port 'Sreg0<1>' has been renamed to 'Sreg01'
+Symbol 'var7129', port 'Sreg0<0>' has been renamed to 'Sreg00'
+Import EDIF netlist finished successfully

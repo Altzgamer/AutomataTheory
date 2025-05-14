@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "var7129";
+    .mra_file = "var7129.mra";
+    .arch = {"var7129_arch"};
+    .syn_files = {"VAR7129.syn", "VAR7129__VAR7129_ARCH.syn"};
+   }
+}

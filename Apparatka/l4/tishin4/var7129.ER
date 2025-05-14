@@ -1,0 +1,2 @@
+C:/Xilinx/active/projects/tishin4/var7129.vhd 46 0:W:#0 Warning: No MUX_OP inferred for the case    in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing.  (HDL-380) 
+

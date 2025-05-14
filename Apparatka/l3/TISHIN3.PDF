@@ -1,0 +1,47 @@
+[project]
+name=tishin3
+netlist=tishin3
+contents=tishin3
+date=03/02/25
+time=07:34:41
+version=3.1.6.00.18c
+generics=MAX
+Type=F21i
+FndType=F4.1i
+FndTypeE=F4.1i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+lib_order=1006 133 167 1003
+[libraries]
+1006=
+133=c:\xilinx\active\syslib\simprims
+167=c:\xilinx\active\syslib\spartan
+1003=c:\xilinx\active\syslib\maket_2
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=Spartan
+[device]
+xilinx=S10PC84-3
+part=S10PC84-3
+[netlist]
+external=FALSE
+[Schematic]
+Table01=Project
+Table02=Sheet
+Table03=Date
+Table04=Date Last Modified
+[sheets]
+tishin31=
+[Log]
+netlist.log=Simulator Netlist Log
+[timings]
+tishin3=
+[FILE7]
+scan_time=1740930642
+[APP_95]
+lid=0
+oid=0
+source=C:\XILINX\ACTIVE\PROJECTS\TISHIN3\TISHIN31.SCH

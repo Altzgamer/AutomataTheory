@@ -1,0 +1,24 @@
+Loading - C:\XILINX\ACTIVE\PROJECTS\TISHIN4\tishin4.alb
+   Loading library default timing values
+Loading - HL4_D
+   Loading library default timing values
+Loading - GI_GOI
+   Loading library default timing values
+Loading - FD
+   Loading library default timing values
+Loading - SOP4B1
+   Loading library default timing values
+Loading - KL_REG_1
+   Loading library default timing values
+Loading - HL2_B
+   Loading library default timing values
+Loading - VAR7129
+   Forcing zero-delay default timing values
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 149 (0)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 256 kB (0)
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 2 seconds
+===============================

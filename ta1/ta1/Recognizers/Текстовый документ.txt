@@ -1,0 +1,2 @@
+win_flex -o FlexRecognizer.cpp -+ FlexRecognizer.l
+java -jar D:\Vs\smc_7_6_0\bin\Smc.jar -c++ -d C:\Users\yacoo\source\repos\ta1\Recognizers SmcRecognizer.sm

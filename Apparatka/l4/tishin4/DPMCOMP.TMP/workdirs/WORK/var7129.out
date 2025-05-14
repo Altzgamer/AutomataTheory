@@ -1,0 +1,33 @@
+Warning: No MUX_OP inferred for the case 
+	in routine var7129 line 46 in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd' because it might lose the benefit of resource sharing. (HDL-380)
+
+Inferred memory devices in process 'Sreg0_machine'
+	in routine var7129 line 39
+         in file 'C:/Xilinx/active/projects/tishin4/var7129.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      Sreg0_reg      | Flip-flop |   4   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+===============================================================================
+
+Sreg0_reg<1>
+------------
+    Async-reset: Reset
+
+
+Sreg0_reg<3>
+------------
+    Async-reset: Reset
+
+
+Sreg0_reg<2>
+------------
+    Async-reset: Reset
+
+
+Sreg0_reg<0>
+------------
+    Async-set: Reset
+
+
+Writing to hnl file 'C:\Xilinx\active\projects\tishin4\DPMCOMP.TMP/workdirs/WORK/var7129.hnl'
